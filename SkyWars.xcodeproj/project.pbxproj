@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A1E5814F1C4167D9004EEC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E5814E1C4167D9004EEC00 /* AppDelegate.swift */; };
-		A1E581511C4167D9004EEC00 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1E581501C4167D9004EEC00 /* GameScene.sks */; };
 		A1E581531C4167D9004EEC00 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E581521C4167D9004EEC00 /* GameScene.swift */; };
 		A1E581551C4167D9004EEC00 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E581541C4167D9004EEC00 /* GameViewController.swift */; };
 		A1E581581C4167D9004EEC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E581561C4167D9004EEC00 /* Main.storyboard */; };
@@ -16,6 +15,11 @@
 		A1E5815D1C4167D9004EEC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E5815B1C4167D9004EEC00 /* LaunchScreen.storyboard */; };
 		A1E581681C4167D9004EEC00 /* SkyWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E581671C4167D9004EEC00 /* SkyWarsTests.swift */; };
 		A1E581731C4167D9004EEC00 /* SkyWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E581721C4167D9004EEC00 /* SkyWarsUITests.swift */; };
+		A1E581931C416B06004EEC00 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = A1E581901C416B06004EEC00 /* background-music-aac.caf */; };
+		A1E581941C416B06004EEC00 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = A1E581911C416B06004EEC00 /* pew-pew-lei.caf */; };
+		A1E581951C416B06004EEC00 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1E581921C416B06004EEC00 /* sprites.atlas */; };
+		A1E581971C41727B004EEC00 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E581961C41727B004EEC00 /* GameOverScene.swift */; };
+		A1E581991C41841F004EEC00 /* plane-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E581981C41841F004EEC00 /* plane-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 /* Begin PBXFileReference section */
 		A1E5814B1C4167D9004EEC00 /* SkyWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E5814E1C4167D9004EEC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1E581501C4167D9004EEC00 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A1E581521C4167D9004EEC00 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A1E581541C4167D9004EEC00 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A1E581571C4167D9004EEC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		A1E5816E1C4167D9004EEC00 /* SkyWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E581721C4167D9004EEC00 /* SkyWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyWarsUITests.swift; sourceTree = "<group>"; };
 		A1E581741C4167D9004EEC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E581901C416B06004EEC00 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		A1E581911C416B06004EEC00 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		A1E581921C416B06004EEC00 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		A1E581961C41727B004EEC00 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A1E581981C41841F004EEC00 /* plane-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				A1E5814E1C4167D9004EEC00 /* AppDelegate.swift */,
-				A1E581501C4167D9004EEC00 /* GameScene.sks */,
-				A1E581521C4167D9004EEC00 /* GameScene.swift */,
 				A1E581541C4167D9004EEC00 /* GameViewController.swift */,
+				A1E581521C4167D9004EEC00 /* GameScene.swift */,
+				A1E581961C41727B004EEC00 /* GameOverScene.swift */,
 				A1E581561C4167D9004EEC00 /* Main.storyboard */,
 				A1E581591C4167D9004EEC00 /* Assets.xcassets */,
 				A1E5815B1C4167D9004EEC00 /* LaunchScreen.storyboard */,
 				A1E5815E1C4167D9004EEC00 /* Info.plist */,
+				A1E581801C416A08004EEC00 /* Resources */,
 			);
 			path = SkyWars;
 			sourceTree = "<group>";
@@ -129,6 +138,26 @@
 				A1E581741C4167D9004EEC00 /* Info.plist */,
 			);
 			path = SkyWarsUITests;
+			sourceTree = "<group>";
+		};
+		A1E581801C416A08004EEC00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1E581981C41841F004EEC00 /* plane-icon.png */,
+				A1E5818F1C416B06004EEC00 /* Sounds */,
+				A1E581921C416B06004EEC00 /* sprites.atlas */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		A1E5818F1C416B06004EEC00 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A1E581901C416B06004EEC00 /* background-music-aac.caf */,
+				A1E581911C416B06004EEC00 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,10 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E581511C4167D9004EEC00 /* GameScene.sks in Resources */,
+				A1E581991C41841F004EEC00 /* plane-icon.png in Resources */,
+				A1E581951C416B06004EEC00 /* sprites.atlas in Resources */,
+				A1E581931C416B06004EEC00 /* background-music-aac.caf in Resources */,
 				A1E5815D1C4167D9004EEC00 /* LaunchScreen.storyboard in Resources */,
 				A1E5815A1C4167D9004EEC00 /* Assets.xcassets in Resources */,
 				A1E581581C4167D9004EEC00 /* Main.storyboard in Resources */,
+				A1E581941C416B06004EEC00 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +300,7 @@
 			files = (
 				A1E581531C4167D9004EEC00 /* GameScene.swift in Sources */,
 				A1E581551C4167D9004EEC00 /* GameViewController.swift in Sources */,
+				A1E581971C41727B004EEC00 /* GameOverScene.swift in Sources */,
 				A1E5814F1C4167D9004EEC00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SkyWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ujjal.SkyWars;
@@ -419,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SkyWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.ujjal.SkyWars;
